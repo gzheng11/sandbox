@@ -1,6 +1,2 @@
-- name: Transfer and execute a script.
-  hosts: all
-  tasks:
-
-     - name: Copy and Execute the script 
-       script: /tmp/test.sh
+- name: Execute the script
+  command: sh /tmp/test.sh
