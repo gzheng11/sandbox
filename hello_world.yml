@@ -1,3 +1,4 @@
-- script: /tmp/test.sh
-  args:
-    creates: /tmp/222.txt
+- name: Transfer and execute a script.
+  tasks:
+     - name: Copy and Execute the script 
+       script: /tmp/test.sh
