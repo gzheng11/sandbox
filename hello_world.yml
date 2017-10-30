@@ -1,2 +1,3 @@
-- name: Execute the script
-  command: sh /tmp/test.sh
+- script: /tmp/test.sh
+  args:
+    creates: /tmp/222.txt
