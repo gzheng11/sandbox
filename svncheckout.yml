@@ -1,0 +1,4 @@
+# Checkout subversion repository to specified folder.
+- subversion:
+    repo: svn+ssh://an.example.org/path/to/repo
+    dest: /src/checkout
