@@ -1,4 +1,6 @@
 # Checkout subversion repository to specified folder.
 - subversion:
-    repo: svn+ssh://an.example.org/path/to/repo
+    repo: http://svn-01-dev-1.you-get.com/svn/repository/Integrations/DSPPortal/trunk/DSPConnectorPortalModule/
     dest: /src/checkout
+    username: gzheng@you-get.com
+    password: YouGet1234
